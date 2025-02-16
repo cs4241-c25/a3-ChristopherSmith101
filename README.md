@@ -1,6 +1,6 @@
 ## Mobile Legends Database App
 
-your glitch (or alternative server) link e.g. http://a3-wilson-wong.glitch.me
+your glitch (or alternative server) link e.g. https://glitch.com/~a3-mlbb-database
 
 This application serves as a place for users to store heroes that they play in Mobile Legends. Some issues that
 I ran into while developing this website was the user login feature of the app. I chose local storage as my
