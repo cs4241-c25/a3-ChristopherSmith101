@@ -1,6 +1,6 @@
 ## Mobile Legends Database App
 
-your glitch (or alternative server) link e.g. https://glitch.com/~a3-mlbb-database
+your glitch (or alternative server) link e.g. https://a3-mlbb-database.glitch.me/
 
 This application serves as a place for users to store heroes that they play in Mobile Legends. Some issues that
 I ran into while developing this website was the user login feature of the app. I chose local storage as my
@@ -8,6 +8,9 @@ authentication strategy because it was easier to understand and implement compar
 bootstrap in combination with my original grid styling for assignment A2. I did this because I was already
 satisfied with my layout, but I did want my font and color styling to be made better, which bootstrap helped
 with.
+
+In order to test things, I have two users you can log in with. "fluffy" with password "1", and "togekip" with
+password "2".
 
 ## Technical Achievements
 - **Lighthouse (1 point)**: I got 100 for performance, accessibility, and best practices. I got 91 for SEO, and the ONLY
