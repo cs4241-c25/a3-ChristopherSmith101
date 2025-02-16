@@ -15,9 +15,12 @@ let hero_collection= null;
 let user_collection= null;
 
 async function run() {
-    await dbconnect.connect().then(() => console.log("Connected!"));
+    await dbconnect.connect()
+    console.log("Connected!");
     hero_collection = await dbconnect.db("MobileLegends").collection("Heroes");
+    console.log(hero_collection);
     user_collection = await dbconnect.db("MobileLegends").collection("Users");
+    console.log(user_collection);
 
     app.get('/', (req, res) => {
         res.send("public/index.html");
@@ -129,4 +132,4 @@ async function run() {
 
 const appRun = run();
 
-//app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000);
