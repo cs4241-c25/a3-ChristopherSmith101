@@ -10,7 +10,6 @@ satisfied with my layout, but I did want my font and color styling to be made be
 with.
 
 ## Technical Achievements
-- **Deploying with Vercel (5 points)**: I used Vercel instead of Glitch for deploying the website.
 - **Lighthouse (1 point)**: I got 100 for performance, accessibility, and best practices. I got 91 for SEO, and the ONLY
                             thing I didn't have was a robot.txt file. I do not think this is something that was wrong
                             on my end, since robot.txt is not something we talked about in class.
